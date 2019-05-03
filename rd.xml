@@ -1,0 +1,5 @@
+<Directives>
+  <Application>
+    <Assembly Name="corert-db" Dynamic="Required All" />
+  </Application>
+</Directives>
