@@ -27,7 +27,7 @@ namespace Member
                 Console.WriteLine("Log: State: " + _connection.State.ToString());
                 Console.WriteLine("Log: DB ServerVersion: " + _connection.ServerVersion);
 
-                using (var cmd = new MySqlCommand("SELECT * FROM member", _connection))
+                using (var cmd = new MySqlCommand("SELECT * FROM `member`", _connection))
                 {
                     using (var reader = cmd.ExecuteReader())
                     {
